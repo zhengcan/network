@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,lync.com
+DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,msappproxy.net
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msauthimages.net
@@ -53,6 +54,7 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,outlookmobile.com
 DOMAIN-SUFFIX,phonefactor.net
 DOMAIN-SUFFIX,public-trust.com
+DOMAIN-SUFFIX,s-msedge.net
 DOMAIN-SUFFIX,sfbassets.com
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN-SUFFIX,sharepoint.com

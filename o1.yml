@@ -1,0 +1,2 @@
+proxies:
+  - {name: oracle-trojan, server: 158.101.140.38, port: 44982, type: trojan, password: p8wZbgW1Lh, sni: o1.xchains.com.au, skip-cert-verify: false}

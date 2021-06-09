@@ -7,3 +7,10 @@ log-level: info
 external-controller: '127.0.0.1:9090'
 proxies:
   - {name: oracle-trojan, server: 158.101.140.38, port: 44982, type: trojan, password: p8wZbgW1Lh, sni: o1.xchains.com.au, skip-cert-verify: false}
+proxy-groups:
+  - name: oracle-trojan
+    type: select
+    proxies:
+      - oracle-trojan
+rules:
+ - MATCH,DIRECT

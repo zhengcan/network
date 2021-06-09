@@ -6,11 +6,11 @@ mode: rule
 log-level: info
 external-controller: '127.0.0.1:9090'
 proxies:
-  - {name: ZJ·o1, server: 158.101.140.38, port: 44982, type: trojan, password: p8wZbgW1Lh, sni: o1.xchains.com.au, skip-cert-verify: false}
+  - {name: 0. 自建·SLF·o1, server: 158.101.140.38, port: 44982, type: trojan, password: p8wZbgW1Lh, sni: o1.xchains.com.au, skip-cert-verify: false}
 proxy-groups:
-  - name: ZJ-Trojan
+  - name: 自建·SLF-Trojan
     type: select
     proxies:
-      - ZJ·o1
+      - 0. 自建·SLF·o1
 rules:
  - MATCH,DIRECT
